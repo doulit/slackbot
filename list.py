@@ -12,7 +12,7 @@ def list_slack():
     """List channels & users in slack."""
     try:
         # token = os.environ['SLACK_TOKEN']
-        token = "xoxb-815438108836-946455826801-9bfUvh6c5laA2m7i9hHeWXVe"
+        token = "xoxb-815438108836-946455826801-aJNe0lZN6IXSm1R65umvFNrY"
         slack = Slacker(token)
 
         # Get channel list
